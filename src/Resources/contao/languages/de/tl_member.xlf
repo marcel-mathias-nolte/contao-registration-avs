@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<xliff version="1.1">
+    <file datatype="php" original="src/Resources/contao/languages/en/tl_member.php" source-language="en" target-language="de">
+        <body>
+            <trans-unit id="tl_member.dsgvo.0">
+                <source>GDPR approval</source>
+                <target>DSGVO-Einwilligung</target>
+            </trans-unit>
+            <trans-unit id="tl_member.dsgvo.1">
+                <source>Please approve the privacy statement</source>
+                <target>Ich habe die Datenschutzerklärung zu Kenntnis genommen</target>
+            </trans-unit>
+            <trans-unit id="tl_member.ageApproval.0">
+                <source>Age approval</source>
+                <target>Altersverifikation</target>
+            </trans-unit>
+            <trans-unit id="tl_member.ageApproval.1">
+                <source>Please approve your age</source>
+                <target>Bitte verifizieren Sie ihr Alter</target>
+            </trans-unit>
+            <trans-unit id="tl_member.extended_avs_legend">
+                <source>Extended verification</source>
+                <target>Erweiterte Verifizierung</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

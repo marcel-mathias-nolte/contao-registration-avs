@@ -1,28 +1,30 @@
 <?php
 
 /*
- * This file is part of SkeletonBundle.
+ * This file is part of ExtendedRegistrationBundle.
  *
- * (c) John Doe
- *
- * @license LGPL-3.0-or-later
+ * @package   ExtendedRegistrationBundle
+ * @author    Marcel Mathias Nolte
+ * @copyright Marcel Mathias Nolte 2015-2020
+ * @website	  https://github.com/marcel-mathias-nolte
+ * @license   LGPL-3.0-or-later
  */
 
-namespace MarcelMathiasNolte\SkeletonBundle\DependencyInjection;
+namespace MarcelMathiasNolte\AddBrowserLanguageAsBodyClassBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoSkeletonExtension extends Extension
+class ExtendedRegistrationBundleExtension extends Extension
 {
     /**
      * {@inheritdoc}
      */
     public function load(array $mergedConfig, ContainerBuilder $container)
     {
-        $loader = new YamlFileLoader(
+         $loader = new YamlFileLoader(
             $container,
             new FileLocator(__DIR__.'/../Resources/config')
         );
