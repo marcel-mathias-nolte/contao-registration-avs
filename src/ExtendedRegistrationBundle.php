@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of AddBrowserLanguageAsBodyClassBundle.
+ * This file is part of ExtendedRegistrationBundleExtension.
  *
- * @package   AddBrowserLanguageAsBodyClassBundle
+ * @package   ExtendedRegistrationBundleExtension
  * @author    Marcel Mathias Nolte
  * @copyright Marcel Mathias Nolte 2015-2020
  * @website	  https://github.com/marcel-mathias-nolte
@@ -20,6 +20,6 @@ class ExtendedRegistrationBundle extends Bundle
 
     public function getContainerExtension(): ExtendedRegistrationBundleExtension
     {
-        return new ExtendedRegistrationExtension();
+        return new ExtendedRegistrationBundleExtension();
     }
 }
