@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of ExtendedRegistrationBundleExtension.
+ * This file is part of ExtendedRegistrationBundle.
  *
- * @package   ExtendedRegistrationBundleExtension
+ * @package   ExtendedRegistrationBundle
  * @author    Marcel Mathias Nolte
  * @copyright Marcel Mathias Nolte 2015-2020
  * @website	  https://github.com/marcel-mathias-nolte

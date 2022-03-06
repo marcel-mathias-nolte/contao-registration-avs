@@ -10,7 +10,7 @@
  * @license   LGPL-3.0-or-later
  */
 
-namespace MarcelMathiasNolte\AddBrowserLanguageAsBodyClassBundle\DependencyInjection;
+namespace MarcelMathiasNolte\ExtendedRegistrationBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
