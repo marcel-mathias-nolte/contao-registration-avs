@@ -34,5 +34,11 @@
     "support": {
         "issues": "https://github.com/marcel-mathias-nolte/contao-registration-avs/issues",
         "source": "https://github.com/marcel-mathias-nolte/contao-registration-avs"
+    },
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true,
+            "contao-community-alliance/composer-plugin": true
+        }
     }
 }
